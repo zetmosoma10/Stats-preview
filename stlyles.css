@@ -1,6 +1,3 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; 
- */
 :root {
   --very-dark-blue-mainBG: hsl(233, 47%, 7%);
   --dark-desaturated-blue-cardBG: hsl(244, 38%, 16%);
@@ -25,7 +22,6 @@ body {
   margin: 0;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
-  /* line-height: 1.5; */
   color: var(--slightly-white-mainParagraph);
   background-color: var(--very-dark-blue-mainBG);
 }
@@ -58,9 +54,6 @@ p {
   color: var(--soft-violet-accent);
 }
 
-.stat__text {
-}
-
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 3.6rem;
@@ -73,7 +66,6 @@ p {
   border-radius: 8px;
   background: var(--dark-desaturated-blue-cardBG);
   min-width: 327px;
-  /* padding: 3rem; */
   max-width: 1110px;
 }
 
@@ -119,7 +111,6 @@ p {
     padding-left: 6rem;
     padding-right: 11rem;
     padding-top: 7rem;
-    /* padding-bottom: 0; */
   }
 
   .card__stat h2 {
@@ -137,10 +128,6 @@ p {
 .grid {
   display: grid;
 }
-
-/* .grid-item {
-  position: relative;
-} */
 
 @media screen and (min-width: 768px) {
   .grid-1x2 {
